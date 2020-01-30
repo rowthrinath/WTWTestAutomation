@@ -7,18 +7,18 @@ namespace WTWTestAutomation
     public class EuroModal
     {
         public int ECurrency1;
-        public int ECurrency2;
+        public double ECurrency2;
         public int ECurrency3;
-        public int ECurrency4;
+        public double ECurrency4;
         public int ETotal;
     }
 
     public class SterlingModal
     {
         public int SCurrency1;
-        public int SCurrency2;
+        public double SCurrency2;
         public int SCurrency3;
-        public int SCurrency4;
+        public double SCurrency4;
         public int STotal;
     }
 

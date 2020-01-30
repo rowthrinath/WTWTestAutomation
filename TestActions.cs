@@ -7,8 +7,8 @@ namespace WTWTestAutomation
 {
     public static class TestActions
     {
-       public static DataTable GetSterlingCurrencyData(int SCurrency1, int SCurrency2, int SCurrency3,
-                                                        int SCurrency4, int STotal)
+       public static DataTable GetSterlingCurrencyData(int SCurrency1, double SCurrency2, int SCurrency3,
+                                                        double SCurrency4, int STotal)
        {
             DataTable sterlingTable = new DataTable();
             sterlingTable.Columns.Add("SCurrency1", typeof(int));
@@ -22,8 +22,8 @@ namespace WTWTestAutomation
             return sterlingTable;
         }
 
-        public  static DataTable GetEuroCurrencyData(int ECurrency1, int ECurrency2, int ECurrency3,
-                                                        int ECurrency4, int ETotal)
+        public  static DataTable GetEuroCurrencyData(int ECurrency1, double ECurrency2, int ECurrency3,
+                                                        double ECurrency4, int ETotal)
         {
             DataTable euroTable = new DataTable();
             euroTable.Columns.Add("ECurrency1", typeof(int));

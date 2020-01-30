@@ -121,6 +121,7 @@ this.ScenarioInitialize(scenarioInfo);
                 this.ScenarioStart();
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "Product",
+                            "ConversionRate",
                             "SCurrency1",
                             "SCurrency2",
                             "SCurrency3",
@@ -133,6 +134,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "ETotal"});
                 table1.AddRow(new string[] {
                             string.Format("{0}", product),
+                            string.Format("{0}", conversionRate),
                             string.Format("{0}", sCurrency1),
                             string.Format("{0}", sCurrency2),
                             string.Format("{0}", sCurrency3),
@@ -155,6 +157,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
                 TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
                             "Product",
+                            "ConversionRate",
                             "SCurrency1",
                             "SCurrency2",
                             "SCurrency3",
@@ -167,6 +170,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "ETotal"});
                 table3.AddRow(new string[] {
                             string.Format("{0}", product),
+                            string.Format("{0}", conversionRate),
                             string.Format("{0}", sCurrency1),
                             string.Format("{0}", sCurrency2),
                             string.Format("{0}", sCurrency3),

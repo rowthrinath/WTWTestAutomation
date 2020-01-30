@@ -7,14 +7,14 @@
 @mytag
 Scenario Outline: To test the conversion rate for sterling to euro	
 	Given I have two data tables created for sterling and euro currencies
-	| Product   |  SCurrency1   | SCurrency2   | SCurrency3   | SCurrency4   | STotal   | ECurrency1   | ECurrency2   | ECurrency3   | ECurrency4   | ETotal   |
-	| <Product> |  <SCurrency1> | <SCurrency2> | <SCurrency3> | <SCurrency4> | <STotal> | <ECurrency1> | <ECurrency2> | <ECurrency3> | <ECurrency4> | <ETotal> |
+	| Product   | ConversionRate   | SCurrency1   | SCurrency2   | SCurrency3   | SCurrency4   | STotal   | ECurrency1   | ECurrency2   | ECurrency3   | ECurrency4   | ETotal   |
+	| <Product> | <ConversionRate> | <SCurrency1> | <SCurrency2> | <SCurrency3> | <SCurrency4> | <STotal> | <ECurrency1> | <ECurrency2> | <ECurrency3> | <ECurrency4> | <ETotal> |
 	And I have set a conversion rate as
 	| ConversionRate   |
 	| <ConversionRate> |
 	Then I should see the below conversion rates for sterling to euro
-	| Product  |  SCurrency1   | SCurrency2   | SCurrency3   | SCurrency4   | STotal   | ECurrency1   | ECurrency2   | ECurrency3   | ECurrency4   | ETotal   |
-	| <Product> |  <SCurrency1> | <SCurrency2> | <SCurrency3> | <SCurrency4> | <STotal> | <ECurrency1> | <ECurrency2> | <ECurrency3> | <ECurrency4> | <ETotal> |
+	| Product   | ConversionRate   | SCurrency1   | SCurrency2   | SCurrency3   | SCurrency4   | STotal   | ECurrency1   | ECurrency2   | ECurrency3   | ECurrency4   | ETotal   |
+	| <Product> | <ConversionRate> | <SCurrency1> | <SCurrency2> | <SCurrency3> | <SCurrency4> | <STotal> | <ECurrency1> | <ECurrency2> | <ECurrency3> | <ECurrency4> | <ETotal> |
 
 Examples:
 | Product  | ConversionRate | SCurrency1 | SCurrency2 | SCurrency3 | SCurrency4 | STotal | ECurrency1 | ECurrency2 | ECurrency3 | ECurrency4 | ETotal |

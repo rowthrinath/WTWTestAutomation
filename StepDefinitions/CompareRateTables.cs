@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
+using Xunit;
 
 namespace WTWTestAutomation.StepDefinitions
 {
@@ -42,11 +43,12 @@ namespace WTWTestAutomation.StepDefinitions
             var SterlingValue = table.CreateInstance<SterlingModal>();            
 
             foreach (DataRow EurItem in ECurrencyTable.Rows)
-            {
-                EurItem.ItemArray[0].Equals(SterlingValue.SCurrency1 * ConversionRate) ;
-                EurItem.ItemArray[1].Equals(SterlingValue.SCurrency2 * ConversionRate);
-                EurItem.ItemArray[2].Equals(SterlingValue.SCurrency3 * ConversionRate);
-                EurItem.ItemArray[3].Equals(SterlingValue.SCurrency4 * ConversionRate);
+            {                    
+                Assert.Equal(EurItem.ItemArray[0], Convert.ToInt32(SterlingValue.SCurrency1 * ConversionRate));
+                Assert.Equal(EurItem.ItemArray[1], Convert.ToInt32(SterlingValue.SCurrency2 * ConversionRate));
+                Assert.Equal(EurItem.ItemArray[2], Convert.ToInt32(SterlingValue.SCurrency3 * ConversionRate));
+                Assert.Equal(EurItem.ItemArray[3], Convert.ToInt32(SterlingValue.SCurrency4 * ConversionRate));
+                break;
             }
 
         }
