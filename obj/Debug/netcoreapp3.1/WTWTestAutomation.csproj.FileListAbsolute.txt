@@ -105,3 +105,4 @@ C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAut
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.csproj.CopyComplete
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.pdb
+C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.csprojAssemblyReference.cache
