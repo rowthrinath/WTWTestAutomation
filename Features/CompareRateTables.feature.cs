@@ -192,7 +192,7 @@ this.ScenarioInitialize(scenarioInfo);
         [Xunit.TraitAttribute("FeatureTitle", "CompareRateTables")]
         [Xunit.TraitAttribute("Description", "To test the conversion rate for sterling to euro\twith incorrect conversion rate")]
         [Xunit.TraitAttribute("Category", "mytag")]
-        [Xunit.InlineDataAttribute("Product1", "20.0", "10", "12", "14", "45", "80", "15", "18", "21", "67.5", "120", new string[0])]
+        [Xunit.InlineDataAttribute("Product1", "22.0", "10", "12", "14", "45", "80", "15", "18", "21", "67.5", "120", new string[0])]
         public virtual void ToTestTheConversionRateForSterlingToEuroWithIncorrectConversionRate(string product, string conversionRate, string sCurrency1, string sCurrency2, string sCurrency3, string sCurrency4, string sTotal, string eCurrency1, string eCurrency2, string eCurrency3, string eCurrency4, string eTotal, string[] exampleTags)
         {
             string[] @__tags = new string[] {

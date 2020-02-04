@@ -22,11 +22,11 @@ C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\Microsoft.
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
-C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\Utf8Json.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\Validation.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
@@ -100,9 +100,9 @@ C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\zh-Hant\Mi
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.csprojAssemblyReference.cache
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.AssemblyInfoInputs.cache
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.AssemblyInfo.cs
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.csproj.CopyComplete
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.dll
 C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.pdb
-C:\Users\rowth\source\repos\WTWTestAutomation\obj\Debug\netcoreapp3.1\WTWTestAutomation.csprojAssemblyReference.cache
