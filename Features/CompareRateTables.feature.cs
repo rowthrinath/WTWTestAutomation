@@ -282,7 +282,7 @@ this.ScenarioInitialize(scenarioInfo);
                             string.Format("{0}", eCurrency4),
                             string.Format("{0}", eTotal)});
 #line 34
- testRunner.Then("I should see the below conversion rates for sterling to euro", ((string)(null)), table6, "Then ");
+ testRunner.Then("I should not see the below conversion rates for sterling to euro", ((string)(null)), table6, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -382,7 +382,7 @@ this.ScenarioInitialize(scenarioInfo);
                             string.Format("{0}", eCurrency4),
                             string.Format("{0}", eTotal)});
 #line 50
- testRunner.Then("I should see the below conversion rates for sterling to euro", ((string)(null)), table9, "Then ");
+ testRunner.Then("I should not see the below conversion rates for sterling to euro", ((string)(null)), table9, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

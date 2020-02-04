@@ -53,6 +53,22 @@ namespace WTWTestAutomation.StepDefinitions
 
         }
 
+        [Then(@"I should not see the below conversion rates for sterling to euro")]
+        public void ThenIShouldNotSeeTheBelowConversionRatesForSterlingToEuro(Table table)
+        {
+            var SterlingValue = table.CreateInstance<SterlingModal>();
+
+            foreach (DataRow EurItem in ECurrencyTable.Rows)
+            {
+                Assert.NotEqual(EurItem.ItemArray[0], Convert.ToInt32(SterlingValue.SCurrency1 * ConversionRate));
+                Assert.NotEqual(EurItem.ItemArray[1], Convert.ToInt32(SterlingValue.SCurrency2 * ConversionRate));
+                Assert.NotEqual(EurItem.ItemArray[2], Convert.ToInt32(SterlingValue.SCurrency3 * ConversionRate));
+                Assert.NotEqual(EurItem.ItemArray[3], Convert.ToInt32(SterlingValue.SCurrency4 * ConversionRate));
+                break;
+            }
+
+        }
+
         [Given(@"I have set a conversion rate as")]
         public void GivenIHaveSetAConversionRateAs(Table table)
         {
