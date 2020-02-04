@@ -37,7 +37,7 @@ Scenario Outline: To test the conversion rate for sterling to euro	with incorrec
 
 Examples:
 | Product  | ConversionRate | SCurrency1 | SCurrency2 | SCurrency3 | SCurrency4 | STotal | ECurrency1 | ECurrency2 | ECurrency3 | ECurrency4 | ETotal |
-| Product1 | 20.0            | 10         | 12         | 14         | 45         | 80     | 15         | 18         | 21         | 67.5       | 120    |
+| Product1 | 22.0           | 10         | 12         | 14         | 45         | 80     | 15         | 18         | 21         | 67.5       | 120    |
 
 @mytag
 Scenario Outline: To test the conversion rate for sterling to euro	with zero conversion rate
